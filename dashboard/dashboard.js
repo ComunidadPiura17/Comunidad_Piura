@@ -20,7 +20,7 @@ document.getElementById('fechaHoy').textContent =
   hoy.toLocaleDateString('es-PE', { weekday:'long', day:'numeric', month:'long' });
 
 // ── Countdown fijo: 21 julio 2025 ──
-iniciarCountdown(new Date('2026-07-21T23:59:59'));
+iniciarCountdown(new Date('2025-07-21T23:59:59'));
 
 // ── Auth guard ──
 onAuthStateChanged(auth, async (user) => {
